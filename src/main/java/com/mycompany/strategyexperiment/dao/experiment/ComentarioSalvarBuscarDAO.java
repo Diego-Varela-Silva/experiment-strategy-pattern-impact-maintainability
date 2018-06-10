@@ -5,7 +5,7 @@ import com.mycompany.strategyexperiment.dao.experiment.salvar.Salvar;
 
 public class ComentarioSalvarBuscarDAO extends AbstractSalvarBuscarDAO {
     
-    public ComentarioSalvarBuscarDAO (Salvar salvar, Buscar buscar) {
+    ComentarioSalvarBuscarDAO (Salvar salvar, Buscar buscar) {
         this.salvar = salvar;
         this.buscar = buscar;
     }

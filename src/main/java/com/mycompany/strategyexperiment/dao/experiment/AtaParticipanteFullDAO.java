@@ -7,7 +7,7 @@ import com.mycompany.strategyexperiment.dao.experiment.salvar.Salvar;
 
 public class AtaParticipanteFullDAO extends AbstractFullDAO {
     
-    public AtaParticipanteFullDAO (Salvar salvar, Listar listar, Buscar buscar, Excluir excluir) {
+    AtaParticipanteFullDAO (Salvar salvar, Listar listar, Buscar buscar, Excluir excluir) {
         this.salvar = salvar;
         this.listar = listar;
         this.buscar = buscar;
